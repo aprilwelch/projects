@@ -8,11 +8,11 @@
 h1,h2,h3,h4,strong { font-weight: bold; 
   				 font-size:100%;
 					 font-family: Gill Sans, Trebuchet MS, Arial, san-serif;}
-					 
+<body>					 
 body {font-family: Gill Sans, Trebuchet MS, Arial;}
 { border-bottom: 3px dotted; }
 background-color:#ECE5B6;
-body
+
 div#footer {background: grey;}
 div#header {background: white;}
 
@@ -20,7 +20,7 @@ ul#navigation{width: 200px; padding:20px;}
 </style>
 </head>
 
-<body>
+
 
 </body>
 </html>
