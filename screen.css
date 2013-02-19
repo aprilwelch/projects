@@ -1,5 +1,31 @@
 /* screen.css: Screen Styles */
 
+body { font-family: "Gill Sans", "Trebuchet MS", Arial, san-serif; }
+
+html { background-color:#ECE5B6; }
+
+
+/* Bold on headings, b, and strong */
+h1,h2,h3,h4,strong { 
+  font-weight: bold; 
+  font-size:100%;
+  color:#8B4789;}
+        
+a { color: #8B4789; }
+
+/*
+
+{ border-bottom: 3px dotted; }
+
+body
+
+*/
+
+div#footer {background: grey;}
+div#header {background: white;}
+
+ul#navigation{width: 200px; padding:20px;}/* screen.css: Screen Styles */
+
 <!DOCTYPE html>
 <html>
 <head>
