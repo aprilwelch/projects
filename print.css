@@ -1,0 +1,36 @@
+/* print.css Print Styles */
+
+/* Base Styles */
+
+/* Bold on headings, b, and strong */
+h1,h2,h3,h4,strong { font-weight: bold; }
+
+/*
+  Hide the accessibility navigation, the site navigation,
+  and the validator links, which are unhelpful when a page
+  is printed.
+*/
+
+ul.accessibility,
+ul#navigation,
+ul.validators {
+  display: none;
+}
+
+div#content a:link:after,
+div#content a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+   font-family: "Courier New", Courier, monospace;
+}
+
+/*
+  Treat acronyms and abbreviations similarly, but
+  run the expansion in the title attribute in 
+  parentheses.
+*/
+
+abbr:after,
+acronym:after {
+     content: " (" attr(title) ") ";
+}
