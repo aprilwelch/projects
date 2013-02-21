@@ -4,6 +4,7 @@ body { font-family: "Gill Sans", "Trebuchet MS", Arial, san-serif; }
 
 html { background-color:#ECE5B6; }
 
+h4 { text-transform: lowercase; }
 
 /* Bold on headings, b, and strong */
 h1,h2,h3,h4,strong { 
