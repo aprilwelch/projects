@@ -20,8 +20,8 @@ ul.validators {
 div#content a:link:after,
 div#content a:visited:after {
    content: " (" attr(href) ") ";
-   font-size: 90%;
-   font-family: "Courier New", Courier, monospace;
+   font-size: 80%;
+   font-family: Gill Sans, Trebuchet MS, Arial, san-serif;
 }
 
 /*
@@ -33,4 +33,4 @@ div#content a:visited:after {
 abbr:after,
 acronym:after {
      content: " (" attr(title) ") ";
-}
+} 
