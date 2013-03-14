@@ -2,12 +2,17 @@
 
 body { font-family: "Gill Sans", "Trebuchet MS", Arial, san-serif; }
 
+html { background-color:#ECE5B6; }
+
 /* Bold on headings, b, and strong */
 h1,h2,h3,h4,strong,em { 
   font-weight: bold; 
   font-size: 100%;
-  color: #000;
+  color: #8B4789;
 }
+
+/* no bullets on the list, style cascades to all lists */
+ul.resume {list-style-type: none;}
 
 h1 { 
   margin: 0px; 
@@ -17,7 +22,7 @@ h1 {
 } 
         
 a { 
-  color: #000; 
+  color: #8B4789; 
 }
 
 em { 
@@ -26,8 +31,8 @@ em {
 
 #header {
   height: 175px;
-  width: 100%;  
-  background: #CCC; 
+  width: 100%; 
+  background: #ACA786; 
 }
 
 #header h1 { 
@@ -47,6 +52,7 @@ em {
 
 #contactinfo { 
   padding-top: 10px; 
+  float: left; 
 } 
 
 #aw2logo img { 
@@ -55,7 +61,7 @@ em {
 } 
 
 #masthead { 
-  width: 45%; 
+  width: 55%; 
   text-align: center;
 } 
 
@@ -64,8 +70,7 @@ em {
 } 
 
 #masthead div.site-nav { 
-  display: none; 
-  float: none;
+  float: left;
 } 
 
 #masthead div.site-nav ul {
@@ -80,7 +85,7 @@ em {
 
 #contactinfo {
   width: 20%;  
-  float: right; 
+  float: left; 
   text-align: right; 
 } 
 
@@ -89,7 +94,8 @@ em {
   padding: 8px 14px 8px 8px; 
   margin: 0px; 
   min-width: 150px; 
-  min-height: 50px;
+  min-height: 50px; 
+  color: #8B4789;
   font-style: normal;
   font-weight: bold;
   font-size: 1.25em;
@@ -97,18 +103,10 @@ em {
   text-transform: lowercase; 
 } 
 
-#contents em.printAdjust { 
-  min-height: 80px; 
-} 
-
 #contents p { 
   padding: 8px; 
   margin-left: 10px; 
   min-height: 50px; 
-} 
-
-#contents div.printAdjust { 
-  padding-top: 50px; 
 } 
 
 #experience p.date { 
@@ -122,6 +120,6 @@ em {
 }   
 
 #footer { 
-  background: #CCC; 
+  background: #D2CCA3; 
   font-weight: bold; 
 } 
