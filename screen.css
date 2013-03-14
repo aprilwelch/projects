@@ -20,7 +20,7 @@ h1 {
   padding-top: 1em; 
   text-align: left;    
   font-size: 2.5em;
-  list-style-type: none;
+  
 } 
         
 a { 
@@ -31,7 +31,56 @@ em {
   font-style: normal;
 } 
 
-#header {
+#contactinfo { 
+  padding-top: 10px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  float: none; 
+  list-style-type: none;
+  width: auto;  
+  float: left; 
+  text-align: center; 
+  clear:both;
+} 
+
+#navigation { 
+  padding-top: 10px; 
+  float: none; 
+  list-style-type: none;
+} 
+
+#logo { 
+  height: 100px; 
+  width: auto;  
+} 
+
+
+#objective { 
+  padding-top: 100px; 
+  float: none; 
+  list-style-type: none;
+
+#tagline { 
+  padding-top: 100px; 
+  float: left; 
+  list-style-type: none;
+} 
+
+#experience h1 { 
+  padding-bottom: 18px; 
+}   
+
+#education h1 { 
+  padding-bottom: 18px; 
+}   
+
+#footer { 
+  background: #D2CCA3; 
+  font-weight: bold; 
+} 
+
+
+/*#header {
   height: 175px;
   width: 100%; 
   background: #ACA786; 
@@ -50,28 +99,28 @@ em {
 #header div { 
   float: left; 
   margin-left: 10px; 
+}*/ 
+/*#masthead { 
+  width: 55%; 
+  text-align: center;
 } 
 
-#contactinfo { 
-  padding-top: 10px; 
-  float: left; 
-  list-style-type: none;
-} 
-#navigation { 
-  padding-top: 10px; 
-  float: left; 
-  list-style-type: none;
-} 
-#aw2logo img { 
-  height: 175px; 
-  width: auto;  
+#masthead h1 { 
+  font-size: 2em; 
 } 
 
+#masthead div.site-nav { 
+  float: left;
+} 
 
-#contactinfo {
-  width: 20%;  
-  float: left; 
-  text-align: right; 
+#masthead div.site-nav ul {
+  margin: 0; 
+  padding: 0; 
+} 
+
+#masthead div.site-nav li { 
+  display: inline-block; 
+  padding: 5px; 
 } 
 
 #contents em { 
@@ -86,10 +135,11 @@ em {
   font-size: 1.25em;
   text-align: right; 
   text-transform: lowercase; 
+  list-style-type: none;
 } 
 
 #contents p { 
-  padding: 8px; 
+  padding: 250px; 
   margin-left: 10px; 
   min-height: 50px; 
 } 
@@ -98,13 +148,5 @@ em {
   padding-top: 10px; 
   border-bottom: 1px solid black; 
   font-size: 1.25em; 
-} 
+} */
 
-#education h1 { 
-  padding-bottom: 18px; 
-}   
-
-#footer { 
-  background: #D2CCA3; 
-  font-weight: bold; 
-} 
