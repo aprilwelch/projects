@@ -14,11 +14,13 @@ h1,h2,h3,h4,strong,em {
 /* no bullets on the list, style cascades to all lists */
 ul.resume {list-style-type: none;}
 
+
 h1 { 
   margin: 0px; 
   padding-top: 1em; 
   text-align: left;    
-  font-size: 2.5em; 
+  font-size: 2.5em;
+  list-style-type: none;
 } 
         
 a { 
@@ -53,35 +55,18 @@ em {
 #contactinfo { 
   padding-top: 10px; 
   float: left; 
+  list-style-type: none;
 } 
-
+#navigation { 
+  padding-top: 10px; 
+  float: left; 
+  list-style-type: none;
+} 
 #aw2logo img { 
   height: 175px; 
   width: auto;  
 } 
 
-#masthead { 
-  width: 55%; 
-  text-align: center;
-} 
-
-#masthead h1 { 
-  font-size: 2em; 
-} 
-
-#masthead div.site-nav { 
-  float: left;
-} 
-
-#masthead div.site-nav ul {
-  margin: 0; 
-  padding: 0; 
-} 
-
-#masthead div.site-nav li { 
-  display: inline-block; 
-  padding: 5px; 
-} 
 
 #contactinfo {
   width: 20%;  
