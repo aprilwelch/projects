@@ -31,40 +31,50 @@ em {
   font-style: normal;
 } 
 
-#contactinfo { 
-  padding-top: 10px;
+#tagline { 
+  padding-top: 100px; 
   padding-bottom: 50px;
-  padding-right: 50px;
-  float: none; 
-  list-style-type: none;
-  width: auto;  
   float: left; 
-  text-align: center; 
-  clear:both;
+  list-style-type: none;
+} 
+
+#contactinfo { 
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  float: left;
+  list-style-type: none;
+  width: auto;   
+  text-align: left; 
+  background: #ACA786;
 } 
 
 #navigation { 
-  padding-top: 10px; 
-  float: none; 
+  padding-top: 30px; 
+  padding-bottom: 10px;
+  padding-right: 50px;
+  float: left; 
   list-style-type: none;
+  text-align: right;
+  background: #ACA786;
 } 
 
 #logo { 
+  padding-top: 10px; 
   height: 100px; 
+  padding-bottom: 10px;
+  padding-right: 28px;
   width: auto;  
+  float: left; 
+  background: #ACA786;
 } 
-
 
 #objective { 
   padding-top: 100px; 
   float: none; 
   list-style-type: none;
 
-#tagline { 
-  padding-top: 100px; 
-  float: left; 
-  list-style-type: none;
-} 
+
 
 #experience h1 { 
   padding-bottom: 18px; 
