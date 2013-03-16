@@ -9,20 +9,31 @@ h1,h2,h3,h4,strong,em {
   font-weight: bold; 
   font-size: 100%;
   color: #8B4789;
+  list-style-type: none;
 }
 
 /* no bullets on the list, style cascades to all lists */
 ul.resume {list-style-type: none;}
 
+ul.education {padding-bottom: 20px;}
 
 h1 { 
   margin: 0px; 
   padding-top: 1em; 
   text-align: left;    
-  font-size: 2.5em;
+  font-size: 2.0em;
   
 } 
-        
+  
+
+h2 { 
+  margin: 0px; 
+  padding-top: 1em; 
+  text-align: left;    
+  font-size: 1.5em;
+  list-style-type: none;
+} 
+
 a { 
   color: #8B4789; 
 }
@@ -69,12 +80,10 @@ em {
   background: #ACA786;
 } 
 
-#objective { 
-  padding-top: 100px; 
-  float: none; 
+#execsummary {
+  padding-top: 30px;
   list-style-type: none;
-
-
+}
 
 #experience h1 { 
   padding-bottom: 18px; 
